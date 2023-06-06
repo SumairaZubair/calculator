@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    background-color: rgb(191, 153, 227);
+    text-align: center;
+}
+div h2{
+    padding-top: 100px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+div hr{
+    margin: 14px 0;
+    color: black;
+
+}
+div br{
+    margin: 20px;
+}
+div input[type=number]{
+    margin: 10px 0;
+    padding: 15px;
+    width: 50%;
+    font-size: 16px;  
+} 
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    width: 50px;
+    background-color: rgb(247, 240, 255);
+}
+button:hover{
+    content: '';
+    cursor: pointer;
+    transition: 1s;
+    background-color: blueviolet;
+}
+div input[type=number]{
+    border: 1px solid #000;
+    background-color: #e1d5d5;
+    color: #050404;
+    text-align: center;
+    font-size: 22px;
+}
